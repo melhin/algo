@@ -233,3 +233,9 @@ All donations support continued development. Thanks!
 * We also accept and appreciate contributions of new code and bugfixes via Github Pull Requests.
 
 Algo is licensed and distributed under the AGPLv3. If you want to distribute a closed-source modification or service based on Algo, then please consider <a href="mailto:opensource@trailofbits.com">purchasing an exception</a> . As with the methods above, this will help support continued development.
+
+
+## How do you run it locally on cloud instance ?
+```
+export METHOD=cloud;export USERS=phone1,phone2,phone3,phone4,laptop1,laptop2,tablet;curl -s https://raw.githubusercontent.com/trailofbits/algo/master/install.sh | sudo -E bash -x
+```
